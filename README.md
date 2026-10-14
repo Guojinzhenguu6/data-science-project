@@ -50,8 +50,7 @@ On Windows activate with `.venv\Scripts\activate` instead. The script runs every
 
 All source snapshots are included, so analysis runs offline after installing dependencies. Missing files trigger downloads from the manifest; changed upstream bytes fail checksum validation rather than silently changing the study. Preserve the snapshots for exact reproduction. Requirements record the environment used for the portfolio reproduction check.
 
-## Organization and AI assistance
+## Organization
 
 `analysis.ipynb`: analysis and saved outputs; `run_analysis.py`: command-line reproduction; `data/`: attributed source snapshots and manifest; `results/`: computed tables and two figures.
 
-AI assisted with portfolio preparation, documentation and execution checks. Findings come from the supplied data and analysis.
