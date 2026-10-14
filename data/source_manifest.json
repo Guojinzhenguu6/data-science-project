@@ -1,0 +1,24 @@
+{
+  "retrieved_utc": "2026-09-18T08:45:53.494331+00:00",
+  "study_period": [
+    "2022-01-01",
+    "2024-12-31"
+  ],
+  "files": {
+    "fremont_2022_2024_raw.csv": {
+      "url": "https://data.seattle.gov/resource/65db-xm6k.csv?%24where=date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+date+%3C+%272025-01-01T00%3A00%3A00%27&%24order=date&%24limit=40000",
+      "sha256": "ad96d7c69663f31a406d7e2a87a6f9b36e0b68c79dea7a371d9370ec87388598",
+      "bytes": 1074378
+    },
+    "USW00024233.dly": {
+      "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/all/USW00024233.dly",
+      "sha256": "07c05969497ce66edb338944026229f0ba031c8e5459791502289415ca76f18e",
+      "bytes": 4405590
+    },
+    "counter_metadata.json": {
+      "url": "https://data.seattle.gov/api/views/65db-xm6k.json",
+      "sha256": "4b9b9b10368c0a8ac605e132d089ce0bae6608fd1eb7cfe37c8fb7ab039fb455",
+      "bytes": 12416
+    }
+  }
+}

@@ -1,0 +1,16 @@
+variable,unit,source_or_calculation,definition
+crossings,count per reported day,Seattle total summed once,"Recorded bridge crossings, currently labelled bicycle and scooter counts"
+valid_hours,hourly records,Seattle,Count of nonmissing hourly total values
+complete_counter,boolean,Derived,Exactly 24 rows and 24 valid total values
+dst_transition,boolean,Calendar,US clock-transition date in 2022 to 2024
+precip_mm,millimetres,NOAA PRCP divided by 10,Daily precipitation; trace encoded zero
+tmax_c,degrees Celsius,NOAA TMAX divided by 10,Daily maximum temperature
+tmin_c,degrees Celsius,NOAA TMIN divided by 10,Daily minimum temperature
+temp_mid_c,degrees Celsius,Derived,(tmax_c + tmin_c) / 2; not measured daily mean
+temp_c,scaled centered temperature,Derived,(temp_mid_c - 15) / 10
+wet,0 or 1,Derived,1 if precipitation >= 1 mm; use only weather-complete dates
+month,1 to 12,Reported date,Categorical month control
+year,2022 to 2024,Reported date,Categorical year control
+dow,0 to 6,Reported date,Monday 0 through Sunday 6
+holiday,0 or 1,pandas USFederalHolidayCalendar,Observed US federal-holiday indicator
+include_primary,boolean,Derived,"Complete counter and weather, excluding clock-transition days"

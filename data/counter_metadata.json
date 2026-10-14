@@ -1,0 +1,467 @@
+{
+  "id" : "65db-xm6k",
+  "name" : "Fremont Bridge - Combined Bicycle and Scooter Counter",
+  "assetType" : "dataset",
+  "attribution" : "City of Seattle",
+  "averageRating" : 0,
+  "category" : "Transportation",
+  "createdAt" : 1363289854,
+  "description" : "The Fremont Bridge Bicycle Counter began operation in October 2012 and records the number of bikes that cross the bridge using the pedestrian/bicycle pathways. Inductive loops on the east and west pathways count the passing of bicycles regardless of travel direction. The data consists of a date/time field: Date, east pathway count field: Fremont Bridge NB,  and west pathway count field: Fremont Bridge SB. The count fields represent the total bicycles detected during the specified one hour period. Direction of travel is not specified, but in general most traffic in the Fremont Bridge NB field is travelling northbound and most traffic in the Fremont Bridge SB field is travelling southbound.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "domainCName" : "data.seattle.gov",
+  "downloadCount" : 39080,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1573602780,
+  "licenseId" : "PUBLIC_DOMAIN",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 32845683,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1573602803,
+  "publicationGroup" : 733518,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1788378322,
+  "rowsUpdatedBy" : "psms-jbhq",
+  "tableId" : 16701869,
+  "totalTimesRated" : 0,
+  "viewCount" : 67041,
+  "viewLastModified" : 1788378321,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1533157127,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1484304,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1533157127,
+    "targetAudience" : "public",
+    "workflowId" : 3127,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "psms-jbhq",
+      "displayName" : "Zuniga, Rafael"
+    }
+  }, {
+    "message" : "The `strict_permissions` flag must be on to enable internal approvals.",
+    "state" : "unsubmittable",
+    "targetAudience" : "internal",
+    "workflowId" : 4739
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 438119041,
+    "name" : "Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date and hour of day object(s) are detected by the sensor.",
+    "fieldName" : "date",
+    "position" : 1,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 8621805,
+    "width" : 278,
+    "cachedContents" : {
+      "largest" : "2026-08-31T23:00:00.000",
+      "non_null" : "121955",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2022-09-21T04:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2026-02-06T01:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2017-04-08T02:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2024-07-26T07:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2022-06-04T23:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2019-01-10T15:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2016-09-30T18:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2024-03-08T04:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2015-09-27T03:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2022-05-30T21:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2015-02-25T20:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2013-02-10T06:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2017-04-30T23:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2024-08-31T13:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2022-11-29T11:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2015-01-25T07:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2014-04-27T10:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2023-03-13T16:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2022-09-06T21:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2022-11-29T21:00:00.000",
+        "count" : "1"
+      } ],
+      "not_null" : "62040",
+      "smallest" : "2012-10-02T13:00:00.000",
+      "count" : "121955",
+      "cardinality" : "121955"
+    },
+    "format" : {
+      "view" : "date_time"
+    }
+  }, {
+    "id" : 438119083,
+    "name" : "Fremont Bridge Sidewalks, south of N 34th St Total",
+    "dataTypeName" : "number",
+    "description" : "Total of both sidewalks",
+    "fieldName" : "fremont_bridge",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 90666357,
+    "width" : 356,
+    "cachedContents" : {
+      "largest" : "1097",
+      "non_null" : "121925",
+      "null" : "30",
+      "top" : [ {
+        "item" : "3",
+        "count" : "3296"
+      }, {
+        "item" : "2",
+        "count" : "3287"
+      }, {
+        "item" : "4",
+        "count" : "2970"
+      }, {
+        "item" : "1",
+        "count" : "2881"
+      }, {
+        "item" : "5",
+        "count" : "2609"
+      }, {
+        "item" : "6",
+        "count" : "2268"
+      }, {
+        "item" : "7",
+        "count" : "1945"
+      }, {
+        "item" : "0",
+        "count" : "1919"
+      }, {
+        "item" : "8",
+        "count" : "1716"
+      }, {
+        "item" : "9",
+        "count" : "1627"
+      }, {
+        "item" : "10",
+        "count" : "1426"
+      }, {
+        "item" : "11",
+        "count" : "1357"
+      }, {
+        "item" : "12",
+        "count" : "1203"
+      }, {
+        "item" : "13",
+        "count" : "1126"
+      }, {
+        "item" : "14",
+        "count" : "1105"
+      }, {
+        "item" : "15",
+        "count" : "1040"
+      }, {
+        "item" : "16",
+        "count" : "986"
+      }, {
+        "item" : "18",
+        "count" : "956"
+      }, {
+        "item" : "17",
+        "count" : "939"
+      }, {
+        "item" : "19",
+        "count" : "901"
+      } ],
+      "not_null" : "62030",
+      "smallest" : "0",
+      "count" : "121955",
+      "cardinality" : "121955"
+    },
+    "format" : { }
+  }, {
+    "id" : 438119044,
+    "name" : "Fremont Bridge Sidewalks, south of N 34th St Cyclist West Sidewalk",
+    "dataTypeName" : "number",
+    "description" : "The total number of bicyclists traveling on the West sidewalk in one hour as recorded by the sensor.",
+    "fieldName" : "fremont_bridge_nb",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 8621806,
+    "width" : 537,
+    "cachedContents" : {
+      "largest" : "850",
+      "non_null" : "121925",
+      "null" : "30",
+      "top" : [ {
+        "item" : "1",
+        "count" : "5652"
+      }, {
+        "item" : "2",
+        "count" : "5384"
+      }, {
+        "item" : "0",
+        "count" : "4557"
+      }, {
+        "item" : "3",
+        "count" : "4420"
+      }, {
+        "item" : "4",
+        "count" : "3546"
+      }, {
+        "item" : "5",
+        "count" : "2960"
+      }, {
+        "item" : "6",
+        "count" : "2546"
+      }, {
+        "item" : "7",
+        "count" : "2241"
+      }, {
+        "item" : "8",
+        "count" : "2008"
+      }, {
+        "item" : "9",
+        "count" : "1838"
+      }, {
+        "item" : "10",
+        "count" : "1644"
+      }, {
+        "item" : "11",
+        "count" : "1632"
+      }, {
+        "item" : "12",
+        "count" : "1547"
+      }, {
+        "item" : "13",
+        "count" : "1529"
+      }, {
+        "item" : "15",
+        "count" : "1387"
+      }, {
+        "item" : "14",
+        "count" : "1366"
+      }, {
+        "item" : "16",
+        "count" : "1313"
+      }, {
+        "item" : "17",
+        "count" : "1252"
+      }, {
+        "item" : "18",
+        "count" : "1156"
+      }, {
+        "item" : "19",
+        "count" : "1098"
+      } ],
+      "not_null" : "62030",
+      "smallest" : "0",
+      "count" : "121955",
+      "cardinality" : "121955"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 438119043,
+    "name" : "Fremont Bridge Sidewalks, south of N 34th St Cyclist East Sidewalk",
+    "dataTypeName" : "number",
+    "description" : "The total number of bicyclists traveling on the East sidewalk in one hour as recorded by the sensor.",
+    "fieldName" : "fremont_bridge_sb",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 8621807,
+    "width" : 514,
+    "cachedContents" : {
+      "largest" : "722",
+      "non_null" : "121925",
+      "null" : "30",
+      "top" : [ {
+        "item" : "1",
+        "count" : "6495"
+      }, {
+        "item" : "0",
+        "count" : "6477"
+      }, {
+        "item" : "2",
+        "count" : "5467"
+      }, {
+        "item" : "3",
+        "count" : "4255"
+      }, {
+        "item" : "4",
+        "count" : "3326"
+      }, {
+        "item" : "5",
+        "count" : "2882"
+      }, {
+        "item" : "6",
+        "count" : "2541"
+      }, {
+        "item" : "7",
+        "count" : "2221"
+      }, {
+        "item" : "8",
+        "count" : "1980"
+      }, {
+        "item" : "9",
+        "count" : "1896"
+      }, {
+        "item" : "10",
+        "count" : "1740"
+      }, {
+        "item" : "11",
+        "count" : "1716"
+      }, {
+        "item" : "12",
+        "count" : "1581"
+      }, {
+        "item" : "13",
+        "count" : "1506"
+      }, {
+        "item" : "15",
+        "count" : "1420"
+      }, {
+        "item" : "14",
+        "count" : "1406"
+      }, {
+        "item" : "16",
+        "count" : "1321"
+      }, {
+        "item" : "17",
+        "count" : "1314"
+      }, {
+        "item" : "18",
+        "count" : "1250"
+      }, {
+        "item" : "19",
+        "count" : "1223"
+      } ],
+      "not_null" : "62030",
+      "smallest" : "0",
+      "count" : "121955",
+      "cardinality" : "121955"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Public Domain"
+  },
+  "metadata" : {
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "date",
+        "ascending" : false
+      } ]
+    },
+    "custom_fields" : {
+      "Department" : {
+        "Department" : "Seattle Department of Transportation"
+      },
+      "Data Quality" : {
+        "Date Quality" : "Raw Data"
+      },
+      "Common Core" : {
+        "Contact Email" : "open.data@seattle.gov",
+        "Publisher" : "data.seattle.gov"
+      },
+      "Refresh Frequency" : {
+        "Frequency" : "Monthly"
+      }
+    },
+    "rowLabel" : "Hour of Day",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "psms-jbhq",
+    "disabledAt" : 1643045269,
+    "displayName" : "Zuniga, Rafael",
+    "profileImageUrlLarge" : "/api/users/psms-jbhq/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/psms-jbhq/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/psms-jbhq/profile_images/TINY",
+    "screenName" : "Zuniga, Rafael",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : false,
+      "expression" : {
+        "columnId" : 438119041,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "psms-jbhq",
+    "disabledAt" : 1643045269,
+    "displayName" : "Zuniga, Rafael",
+    "profileImageUrlLarge" : "/api/users/psms-jbhq/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/psms-jbhq/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/psms-jbhq/profile_images/TINY",
+    "screenName" : "Zuniga, Rafael",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "bicycle", "traffic", "fremont", "seattle", "counts", "bike counts", "bike" ],
+  "flags" : [ "default", "federated", "internalToPublicFederatedView", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

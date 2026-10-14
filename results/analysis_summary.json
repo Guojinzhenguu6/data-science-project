@@ -1,0 +1,66 @@
+{
+  "audit": {
+    "expected_days": 1096,
+    "raw_hourly_rows": 26304,
+    "missing_counter_hours": 14,
+    "incomplete_counter_days": 4,
+    "dst_transition_days": 6,
+    "missing_weather_days": 2,
+    "excluded_union_days": 9,
+    "primary_days": 1087
+  },
+  "diagnostics": {
+    "alpha": 0.07468607696568125,
+    "pearson_residual_mean_square": 0.8155009918624933,
+    "residual_lag1": 0.32611798360824645,
+    "residual_lag7": 0.06253711916898781,
+    "in_sample_mae": 331.8867262510508,
+    "design_condition_number": 22.04260605919023,
+    "converged": true
+  },
+  "group_statistics": [
+    {
+      "weather_group": "Below 1 mm",
+      "count": 743,
+      "mean": 2821.5598923283983,
+      "median": 2831.0,
+      "std": 1015.6531319701879
+    },
+    {
+      "weather_group": "At least 1 mm",
+      "count": 344,
+      "mean": 1527.7209302325582,
+      "median": 1461.5,
+      "std": 766.1917777295424
+    }
+  ],
+  "raw_wet_ratio": 0.5414455083467526,
+  "temperature_pearson_r": 0.7134087884100773,
+  "wet_ratio": 0.6561884546647295,
+  "wet_ci": [
+    0.6186524408276816,
+    0.6926364397347097
+  ],
+  "wet_percent_difference": -34.381154533527045,
+  "temperature_20_vs_15_ratio": 1.0957666447904948,
+  "temperature_20_vs_15_ci": [
+    1.061895315732621,
+    1.1385162625712806
+  ],
+  "continuous_precip_ratio_per_mm": 0.9709385812987126,
+  "temperature_min_c": -7.4,
+  "temperature_max_c": 28.049999999999997,
+  "total_crossings": 2621955,
+  "bootstrap_attempts": 300,
+  "bootstrap_success": 300,
+  "bootstrap_failed": 0,
+  "snapshot_retrieved_utc": "2026-09-18T08:45:53.494331+00:00",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "patsy": "1.0.3"
+  }
+}
