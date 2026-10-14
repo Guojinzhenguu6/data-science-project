@@ -54,4 +54,4 @@ All source snapshots are included, so analysis runs offline after installing dep
 
 `analysis.ipynb`: analysis and saved outputs; `run_analysis.py`: command-line reproduction; `data/`: attributed source snapshots and manifest; `results/`: computed tables and two figures.
 
-AI assisted with portfolio preparation, documentation and execution checks. Findings come from the supplied data and analysis. Peer feedback and any resulting improvement will be recorded only after real feedback is received.
+AI assisted with portfolio preparation, documentation and execution checks. Findings come from the supplied data and analysis.
