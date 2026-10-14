@@ -54,3 +54,4 @@ All source snapshots are included, so analysis runs offline after installing dep
 
 `analysis.ipynb`: analysis and saved outputs; `run_analysis.py`: command-line reproduction; `data/`: attributed source snapshots and manifest; `results/`: computed tables and two figures.
 
+AI assisted with portfolio documentation and verification. The full analysis was reproduced using `run_analysis.py` on 14 October 2026; findings and figures were generated from the archived observations.
